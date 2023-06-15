@@ -360,6 +360,11 @@ margin-right: auto;}
     fill: rgba(33, 150, 243, 1);
     margin-right: 10px;
 }
+
+.envelope2 {
+    fill: rgba(117, 117, 117, 1);
+    margin-right: 10px;
+}
 .smartphone {
     fill:  rgba(117, 117, 117, 1);
      margin-right: 10px;
@@ -421,6 +426,7 @@ background-color: rgba(245, 244, 250, 1);
 
 .div-our-team {
     width: 270px;
+    height: 428px;
     
     background-color: rgba(255, 255, 255, 1);
     border-bottom-left-radius:4px ;
@@ -517,3 +523,42 @@ box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 
     
 }
+
+.adress-media {
+    display: flex;
+    
+}
+
+.footer-svg {
+    width: 206px;
+    height: 80px;
+    margin-top: 72px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-article {
+    color: rgba(255, 255, 255, 1);
+    font-family: "roboto";
+    font-size: 14px;
+    font-weight: 700px;
+    line-height: 16px;
+    text-align: left;
+}
+
+.media-icon {
+   
+    height: 45px;
+    display: flex;
+    gap:10px
+}
+
+.media-icon-footer { 
+    
+    cursor: pointer;
+
+   
+    
+}
+
