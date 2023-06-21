@@ -15,6 +15,11 @@ header {
     display: flex;
     align-items: center;
 }
+footer {
+    height: 252px;
+    width: 1600px;
+    background-color: rgba(47, 48, 58, 1);
+}
 
 section {
     padding-top: 94px;
@@ -58,6 +63,12 @@ header a:hover {
     cursor: pointer;
     color: rgba(33, 150, 243, 1);
 }
+footer span {
+    font-size: 26px;
+    font-family: Raleway;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+}
 
 .container {
     width: 1200px;
@@ -76,16 +87,27 @@ header a:hover {
 .right_side {
     justify-content: flex-end;
 }
-
+.right_side div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 330px;
+}
 .text_blue {
     color: rgba(33, 150, 243, 1);
 }
-
-.envelope1 {
+.text_white {
+   color: rgba(255, 255, 255, 1)
+}
+.smartphone {
     fill:rgba(117, 117, 117, 1);
     margin-right: 10px;
 }
 
+.envelope1 {
+    fill:rgba(33, 150, 243, 1);
+    margin-right: 10px;
+}
 .main_box_image {
     background-image: url(/images/background/Img\ Overlay.svg), url(/images/background/img_main.jpg);
     background-position: center;
@@ -192,8 +214,12 @@ header a:hover {
 
 section h2 {
     text-align: center;
+    color: #212121;
+    font-size: 36px;
+    font-family: Roboto;
+    font-weight: 700;
+    letter-spacing: 1.08px;
 }
-
 .padding_94_t {
     padding-top: 94px;
 }
@@ -202,7 +228,56 @@ section h2 {
     margin-top: 50px;
 }
 
+.margin_t_94 {
+    margin-top: 94px;
+}
+.margin_t_60 {
+    margin-top: 60px;
+}
+.margin_b_60 {
+    margin-bottom: 60px;
+}
+.img_box{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 50px;
+    
+}
+.img_box li {
+    list-style: none;
+}
 .background_grey {
     background-color: rgba(245, 244, 250, 1);
 }
-
+.logos_box {
+    display: flex;
+    justify-content: space-between;
+}
+.logos_box div {
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+    width: 170px;
+    height: 92px;
+    flex-shrink: 0;
+    margin-top: 50px;
+}
+.logos_box div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logos_box svg {
+    fill: rgba(175, 177, 184, 1);
+}
+.logos_box div:hover {
+    border-radius: 4px;
+    border: 1px solid #2196F3;
+    cursor: pointer;
+}
+.logos_box svg:hover {
+    fill: rgba(33, 150, 243, 1)
+}
+.box_footer {
+    display: flex;
+    justify-content: flex-start;
+}
