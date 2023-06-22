@@ -170,6 +170,27 @@ header a:hover {
     background-color: rgba(255, 255, 255, 1);
 }
 
+.slot_user h3 {
+    color: #212121;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 500;
+    letter-spacing: 0.48px;
+}
+
+.slot_user p {
+    color: #757575;
+    text-align: center;
+    font-size: 16px;
+    font-family: ""Roboto";
+    letter-spacing: 0.48px;
+}
+
+.slot_user svg {
+    fill: rgba(175,177,184,1);
+}
+
 .slot_portfolio {
     display: flex;
     justify-content: center;
@@ -231,7 +252,7 @@ section h2 {
     text-align: center;
     color: #212121;
     font-size: 36px;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-weight: 700;
     letter-spacing: 1.08px;
 }
@@ -339,7 +360,7 @@ footer a {
 .join_us_container h3 {
     color: #FFF;
     font-size: 14px;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-weight: 700;
     letter-spacing: 0.42px;
     text-transform: uppercase;
@@ -355,7 +376,7 @@ footer a {
 .title_box h3 {
     color: #212121;
     font-size: 18px;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-weight: 700;
     line-height: 36px;
     letter-spacing: 1.08px;
@@ -364,7 +385,7 @@ footer a {
 .title_box p {
     color: #757575;
     font-size: 16px;
-    font-family: Roboto;
+    font-family: "Roboto";
     line-height: 30px;
     letter-spacing: 0.48px;
 }
@@ -382,6 +403,15 @@ footer a {
     height: 38px;
     padding-left: 22px;
     padding-right: 22px;
+    color: #212121;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.48px;
+    border-style: none;
+
 }
 
 .slot_filter:hover {
