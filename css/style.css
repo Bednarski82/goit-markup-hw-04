@@ -33,14 +33,6 @@ header > div {
     align-items: center;
 }
 
-header span {
-    font-family: "raleway";
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 30.52px;
-    letter-spacing: 3%;
-}
-
 header ul {
     display: flex;
 }
@@ -63,17 +55,15 @@ header a:hover {
     cursor: pointer;
     color: rgba(33, 150, 243, 1);
 }
-footer span {
-    font-size: 26px;
-    font-family: Raleway;
-    font-weight: 700;
-    letter-spacing: 0.78px;
-}
+
+
 
 .container {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .text_grey {
@@ -84,21 +74,32 @@ footer span {
     justify-content: space-between;
 }
 
+.logo span {
+    font-family: "raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30.52px;
+    letter-spacing: 0.78px;
+}
+
 .right_side {
     justify-content: flex-end;
 }
-.right_side div {
+.right_side a {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
-    width: 330px;
+    margin-left: 30px;
 }
+
 .text_blue {
     color: rgba(33, 150, 243, 1);
 }
+
 .text_white {
    color: rgba(255, 255, 255, 1)
 }
+
 .smartphone {
     fill:rgba(117, 117, 117, 1);
     margin-right: 10px;
@@ -141,10 +142,12 @@ footer span {
 .slots_container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .socials {
-    width: 100%;
+    width: 206px;
+   margin-bottom: 20px;
     margin-top: 16px;
     justify-content: space-around;
 }
@@ -165,6 +168,18 @@ footer span {
     width: 270px;
     height: 428px;
     background-color: rgba(255, 255, 255, 1);
+}
+
+.slot_portfolio {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    width: 370px;
+    height: 404px;
+    border: 1px solid #EEE;
+    background: #FFF;
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .icon_box {
@@ -220,6 +235,7 @@ section h2 {
     font-weight: 700;
     letter-spacing: 1.08px;
 }
+
 .padding_94_t {
     padding-top: 94px;
 }
@@ -231,12 +247,19 @@ section h2 {
 .margin_t_94 {
     margin-top: 94px;
 }
+
 .margin_t_60 {
     margin-top: 60px;
 }
+
 .margin_b_60 {
     margin-bottom: 60px;
 }
+
+.margin_t_20 {
+    margin-top: 20px;
+}
+
 .img_box{
     display: flex;
     justify-content:space-between;
@@ -280,4 +303,95 @@ section h2 {
 .box_footer {
     display: flex;
     justify-content: flex-start;
+    height: 100%;
+}
+
+.line_h_24 {
+    line-height: 24px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 81px;
+
+}
+
+footer li {
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.join_us_container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 80px;
+    width: 206px;
+    margin-top: 72px;
+    margin-left: 70px;
+}
+
+.join_us_container h3 {
+    color: #FFF;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.title_box {
+    width: 322px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title_box h3 {
+    color: #212121;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 1.08px;
+}
+
+.title_box p {
+    color: #757575;
+    font-size: 16px;
+    font-family: Roboto;
+    line-height: 30px;
+    letter-spacing: 0.48px;
+}
+
+.filters {
+    margin-left: auto;
+    margin-right: auto;
+    width: 572px;
+    margin-bottom: 20px;
+}
+
+.slot_filter {
+    border-radius: 4px;
+    background-color: rgba(245, 244, 250, 1);
+    height: 38px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.slot_filter:hover {
+    cursor: pointer;
+    background-color: rgba(33, 150, 243, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color:#ECECEC;
 }
